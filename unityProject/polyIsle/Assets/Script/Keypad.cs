@@ -7,6 +7,7 @@ public class Keypad : MonoBehaviour
 	public string currentPassword = "123";
 	public string input;
 	public string tempInput;
+	public int doorNumber = 1;
 	public bool isOpen;
 	public bool onTrigger;
 	public bool keypadScreen;
@@ -28,8 +29,17 @@ public class Keypad : MonoBehaviour
 
 		if (isOpen)
 		{
-			var newRot = Quaternion.RotateTowards(doorHinge.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 100);
-			doorHinge.rotation = newRot;
+			if (doorNumber == 1)
+			{
+				var newRot = Quaternion.RotateTowards(doorHinge.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 100);
+				doorHinge.rotation = newRot;
+			}
+			else if (doorNumber == 2)
+			{
+				var doorPosition = doorHinge.transform.position + new Vector3(0.0f, -5.0f, 0.0f);
+				doorHinge.position = doorPosition;
+				doorNumber = 0;
+			}
 		}
 	}
 
