@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 2c4ec46492fe03546b1119f5ce78a0df
+timeCreated: 1517085743
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cliff_Desert_01
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_008
+    100008: Cube_009
+    100010: Cube_010
+    100012: Cube_017
+    100014: Cube_018
+    100016: Cube_019
+    100018: Cube_020
+    100020: Cube_021
+    100022: Cube_022
+    100024: Cube_023
+    100026: Cube_024
+    100028: Cube_025
+    100030: Cube_026
+    100032: Cube_036
+    100034: Cube_037
+    100036: Cube_038
+    100038: Empty
+    100040: Empty_002
+    100042: Empty_005
+    100044: Empty_006
+    100046: Empty_007
+    100048: Empty_010
+    100050: //RootNode
+    100052: Text
+    100054: Text_001
+    100056: Text_002
+    100058: Text_005
+    100060: Text_006
+    100062: Torus_001
+    100064: Torus_002
+    100066: Torus_005
+    100068: Torus_006
+    100070: Torus_007
+    100072: Torus_010
+    400000: Cliff_Desert_01
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_008
+    400008: Cube_009
+    400010: Cube_010
+    400012: Cube_017
+    400014: Cube_018
+    400016: Cube_019
+    400018: Cube_020
+    400020: Cube_021
+    400022: Cube_022
+    400024: Cube_023
+    400026: Cube_024
+    400028: Cube_025
+    400030: Cube_026
+    400032: Cube_036
+    400034: Cube_037
+    400036: Cube_038
+    400038: Empty
+    400040: Empty_002
+    400042: Empty_005
+    400044: Empty_006
+    400046: Empty_007
+    400048: Empty_010
+    400050: //RootNode
+    400052: Text
+    400054: Text_001
+    400056: Text_002
+    400058: Text_005
+    400060: Text_006
+    400062: Torus_001
+    400064: Torus_002
+    400066: Torus_005
+    400068: Torus_006
+    400070: Torus_007
+    400072: Torus_010
+    2100000: unnamed
+    2100002: Terrain_01_006
+    2300000: Cliff_Desert_01
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cube_008
+    2300008: Cube_009
+    2300010: Cube_010
+    2300012: Cube_017
+    2300014: Cube_018
+    2300016: Cube_019
+    2300018: Cube_020
+    2300020: Cube_021
+    2300022: Cube_022
+    2300024: Cube_023
+    2300026: Cube_024
+    2300028: Cube_025
+    2300030: Cube_026
+    2300032: Cube_036
+    2300034: Cube_037
+    2300036: Cube_038
+    2300038: Text
+    2300040: Text_001
+    2300042: Text_002
+    2300044: Text_005
+    2300046: Text_006
+    2300048: Torus_001
+    2300050: Torus_002
+    2300052: Torus_005
+    2300054: Torus_006
+    2300056: Torus_007
+    2300058: Torus_010
+    3300000: Cliff_Desert_01
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cube_008
+    3300008: Cube_009
+    3300010: Cube_010
+    3300012: Cube_017
+    3300014: Cube_018
+    3300016: Cube_019
+    3300018: Cube_020
+    3300020: Cube_021
+    3300022: Cube_022
+    3300024: Cube_023
+    3300026: Cube_024
+    3300028: Cube_025
+    3300030: Cube_026
+    3300032: Cube_036
+    3300034: Cube_037
+    3300036: Cube_038
+    3300038: Text
+    3300040: Text_001
+    3300042: Text_002
+    3300044: Text_005
+    3300046: Text_006
+    3300048: Torus_001
+    3300050: Torus_002
+    3300052: Torus_005
+    3300054: Torus_006
+    3300056: Torus_007
+    3300058: Torus_010
+    4300000: Text
+    4300002: Cliff_Desert_01
+    4300004: Text_001
+    4300006: Text_002
+    4300008: Text_006
+    4300010: Text_005
+    4300012: Torus_010
+    4300014: Cube_038
+    4300016: Cube_037
+    4300018: Cube_036
+    4300020: Torus_007
+    4300022: Cube_026
+    4300024: Cube_025
+    4300026: Cube_024
+    4300028: Torus_006
+    4300030: Cube_023
+    4300032: Cube_022
+    4300034: Cube_021
+    4300036: Cube_020
+    4300038: Torus_005
+    4300040: Cube_019
+    4300042: Cube_018
+    4300044: Cube_017
+    4300046: Torus_002
+    4300048: Cube_010
+    4300050: Cube_009
+    4300052: Cube_008
+    4300054: Torus_001
+    4300056: Cube_001
+    4300058: Cube
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
