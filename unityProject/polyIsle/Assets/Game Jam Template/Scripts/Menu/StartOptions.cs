@@ -68,6 +68,11 @@ public class StartOptions : MonoBehaviour {
 
 	}
 
+	public void openWebApp()
+	{
+		Application.OpenURL("https://thecell.eu/");
+	}
+
     void OnEnable()
     {
         SceneManager.sceneLoaded += SceneWasLoaded;
