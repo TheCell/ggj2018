@@ -28,7 +28,7 @@ public class Keypad : MonoBehaviour
 
 		if (isOpen)
 		{
-			var newRot = Quaternion.RotateTowards(doorHinge.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 250);
+			var newRot = Quaternion.RotateTowards(doorHinge.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 100);
 			doorHinge.rotation = newRot;
 		}
 	}
