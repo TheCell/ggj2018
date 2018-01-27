@@ -28,7 +28,8 @@ public class Keypad : MonoBehaviour
 
 		if (isOpen)
 		{
-			var newRot = Quaternion.RotateTowards(doorHinge.rotation, Quaternion.Euler(0.0f, -90.0f, 0.0f), Time.deltaTime * 250);
+			var newRot = Quaternion.RotateTowards(doorHinge.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 250);
+			doorHinge.rotation = newRot;
 		}
 	}
 
@@ -61,10 +62,12 @@ public class Keypad : MonoBehaviour
 
 			if (keypadScreen)
 			{
-				//Screen.showCursor = false;
 				GameObject player = GameObject.FindGameObjectWithTag("Player");
-				//player.GetComponent<FirstPersonController>();
+				var fpsController = player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>();
+				fpsController.enabled = false;
+
 				Cursor.visible = true;
+				Cursor.lockState = CursorLockMode.None;
 
 				GUI.Box(new Rect(0, 0, 320, 455), "");
 				GUI.Box(new Rect(5, 5, 310, 25), tempInput);
@@ -82,7 +85,6 @@ public class Keypad : MonoBehaviour
 				if (GUI.Button(new Rect(215, 35, 100, 100), "3"))
 				{
 					input += "3";
-					Debug.Log("3");
 				}
 
 				if (GUI.Button(new Rect(5, 140, 100, 100), "4"))
@@ -115,12 +117,28 @@ public class Keypad : MonoBehaviour
 					input += "9";
 				}
 
-				if (GUI.Button(new Rect(215, 350, 100, 100), "0"))
+				if (GUI.Button(new Rect(110, 350, 100, 100), "0"))
 				{
 					input += "0";
 				}
 
+				if (GUI.Button(new Rect(215, 350, 100, 100), "OK"))
+				{
+					Cursor.visible = false;
+					Cursor.lockState = CursorLockMode.Confined;
+					fpsController.enabled = true;
+					input = "";
+					keypadScreen = false;
+				}
+
 				tempInput = input;
+
+				if (input == currentPassword)
+				{
+					Cursor.visible = false;
+					Cursor.lockState = CursorLockMode.Confined;
+					fpsController.enabled = true;
+				}
 			}
 		}
 	}
