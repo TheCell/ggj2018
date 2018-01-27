@@ -1,43 +1,33 @@
 fileFormatVersion: 2
-guid: 6e25c3723be2bd642be713d1fecd07ed
-timeCreated: 1517075575
+guid: f97ecb50e5be0e94ca1cf1c0e0fd0edb
+timeCreated: 1517079997
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Cube
-    100004: Cube_001
-    100006: Cube_002
-    100008: Cube_003
-    100010: Cube_004
-    100012: Torus_001
+    100004: Cube_003
+    100006: Cube_005
+    100008: Torus_001
     400000: //RootNode
     400002: Cube
-    400004: Cube_001
-    400006: Cube_002
-    400008: Cube_003
-    400010: Cube_004
-    400012: Torus_001
+    400004: Cube_003
+    400006: Cube_005
+    400008: Torus_001
     2100000: unnamed
     2300000: Cube
-    2300002: Cube_001
-    2300004: Cube_002
-    2300006: Cube_003
-    2300008: Cube_004
-    2300010: Torus_001
+    2300002: Cube_003
+    2300004: Cube_005
+    2300006: Torus_001
     3300000: Cube
-    3300002: Cube_001
-    3300004: Cube_002
-    3300006: Cube_003
-    3300008: Cube_004
-    3300010: Torus_001
+    3300002: Cube_003
+    3300004: Cube_005
+    3300006: Torus_001
     4300000: Torus_001
-    4300002: Cube_001
-    4300004: Cube
-    4300006: Cube_002
-    4300008: Cube_003
-    4300010: Cube_004
+    4300002: Cube
+    4300004: Cube_003
+    4300006: Cube_005
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
