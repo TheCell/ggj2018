@@ -1,4 +1,4 @@
-window.__assets={"nwcfcj":"nwcfcj/model-triangulated.obj","2RUnO1Yi99P_9zbqSChdKvN_obj":"2RUnO1Yi99P_9zbqSChdKvN_obj/SunshinePalmTree.obj"};(function(scope) {var __zxzgnpp7q = new Sky({color:"#d9f5ff"});var __gkdf8ovnx = new Model({position:"-7.414 -10.559 -4.52",rotation:"-2.19 0 0",scale:"130 130 130",src:"nwcfcj"});var __4ty8rrvcu = new Model({position:"-8.532 -5.47 -15.951",src:"2RUnO1Yi99P_9zbqSChdKvN_obj"});Object.assign(scope,{});})(window);/******/ (function(modules) { // webpackBootstrap
+window.__assets={"2RUnO1Yi99P_9zbqSChdKvN_obj":"2RUnO1Yi99P_9zbqSChdKvN_obj/SunshinePalmTree.obj","nwcfcj":"nwcfcj/model-triangulated.obj"};(function(scope) {var __zxzgnpp7q = new Sky({color:"#d9f5ff"});var __gkdf8ovnx = new Model({position:"-7.414 -8.388 -4.52",rotation:"-2.19 0 0",scale:"130 114.12 130",src:"nwcfcj"});var __4ty8rrvcu = new Model({position:"-8.532 -5.47 -15.951",src:"2RUnO1Yi99P_9zbqSChdKvN_obj"});var __6lf02j8gi = new Image({position:"4.277 0.197 5.548",src:"samigrump"});Object.assign(scope,{});})(window);/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
