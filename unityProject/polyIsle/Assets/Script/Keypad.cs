@@ -40,6 +40,11 @@ public class Keypad : MonoBehaviour
 				doorHinge.position = doorPosition;
 				doorNumber = 0;
 			}
+			else if (doorNumber == 3)
+			{
+				Application.LoadLevel(3);
+				doorNumber = 0;
+			}
 		}
 	}
 
