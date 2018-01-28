@@ -14,7 +14,7 @@ myLight = new Light
 Hologram.cursor.enabled = true;
 Hologram.cursor.fuse = true;
 Hologram.cursor.fuseTimeout = 1.0;
-
+  
 tempInput = "";
 password = "440";
 
@@ -23,6 +23,11 @@ boxOK.onClick ->
   print "OK clicked";
   if (password == tempInput)
     print "win";
+    ende1.visible = true;
+    ende2.visible = true;
+    ende3.visible = true;
+    ende4.visible = true;
+    
   else
     tempInput = "wrong";
     escapeCode.text = tempInput;
