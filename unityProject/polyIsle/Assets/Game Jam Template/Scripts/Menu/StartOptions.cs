@@ -9,7 +9,7 @@ public class StartOptions : MonoBehaviour {
 
 
     public MenuSettings menuSettingsData;
-	public int sceneToStart = 1;										//Index number in build settings of scene to load if changeScenes is true
+	public int sceneToStart = 2;										//Index number in build settings of scene to load if changeScenes is true
 	public bool changeScenes;											//If true, load a new scene when Start is pressed, if false, fade out UI and continue in single scene
 	public bool changeMusicOnStart;										//Choose whether to continue playing menu music or start a new music clip
     public CanvasGroup fadeOutImageCanvasGroup;                         //Canvas group used to fade alpha of image which fades in before changing scenes
@@ -144,7 +144,7 @@ public class StartOptions : MonoBehaviour {
         HideDelayed();
 
         Debug.Log("Coroutine done. Game started in same scene! Put your game starting stuff here.");
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(2);
     }
 
 

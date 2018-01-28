@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TheIsland.unity
     guid: 6907a4d1cccc1b9429a988f8d0d2a6b6
+  - enabled: 1
+    path: Assets/EndScene.unity
+    guid: 3eefc46252328134db5fc3c611a74519
