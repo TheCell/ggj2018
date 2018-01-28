@@ -81,20 +81,20 @@ public class Keypad : MonoBehaviour
 
 				GUI.Box(new Rect(0, 0, 320, 455), "");
 				GUI.Box(new Rect(5, 5, 310, 25), tempInput);
-
-				if (GUI.Button(new Rect(5, 35, 100, 100), "1"))
+				
+				if (GUI.Button(new Rect(5, 35, 100, 100), "7"))
 				{
-					input += "1";
+					input += "7";
 				}
 
-				if (GUI.Button(new Rect(110, 35, 100, 100), "2"))
+				if (GUI.Button(new Rect(110, 35, 100, 100), "8"))
 				{
-					input += "2";
+					input += "8";
 				}
 
-				if (GUI.Button(new Rect(215, 35, 100, 100), "3"))
+				if (GUI.Button(new Rect(215, 35, 100, 100), "9"))
 				{
-					input += "3";
+					input += "9";
 				}
 
 				if (GUI.Button(new Rect(5, 140, 100, 100), "4"))
@@ -112,19 +112,24 @@ public class Keypad : MonoBehaviour
 					input += "6";
 				}
 
-				if (GUI.Button(new Rect(5, 245, 100, 100), "7"))
+				if (GUI.Button(new Rect(5, 245, 100, 100), "1"))
 				{
-					input += "7";
+					input += "1";
 				}
 
-				if (GUI.Button(new Rect(110, 245, 100, 100), "8"))
+				if (GUI.Button(new Rect(110, 245, 100, 100), "2"))
 				{
-					input += "8";
+					input += "2";
 				}
 
-				if (GUI.Button(new Rect(215, 245, 100, 100), "9"))
+				if (GUI.Button(new Rect(215, 245, 100, 100), "3"))
 				{
-					input += "9";
+					input += "3";
+				}
+
+				if (GUI.Button(new Rect(5, 350, 100, 100), "C"))
+				{
+					input = "";
 				}
 
 				if (GUI.Button(new Rect(110, 350, 100, 100), "0"))
